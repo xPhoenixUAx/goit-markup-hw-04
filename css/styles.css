@@ -196,11 +196,12 @@ a {
 .hero-section {
   max-width: 1440px;
   background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
-  url(../images/people-office\ 1.jpg);
+  url(../images/people-office.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   padding: 188px 0;
+  margin: 0 auto;
 }
 .hero-section-title {
   font-weight: 700;
@@ -303,6 +304,21 @@ a {
 .soc-list-item{
   width: 40px;
   height: 40px;
+  
+}
+.soc-link{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #4d5ae5;
+  border-radius: 50%;
+}
+.soc-link:hover,
+.soc-link:focus,
+.soc-link:active {
+    background-color: #404bbf;
 }
 .paragraph {
   color: #434455;
