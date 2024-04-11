@@ -374,3 +374,7 @@ a {
 img {
   display: block;
 }
+.footer-container{
+  display: flex;
+  align-items: baseline;
+}
